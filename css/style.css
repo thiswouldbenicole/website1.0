@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'comfortaaregular';
+    src: url('comfortaa_regular-webfont.eot');
+    src: url('comfortaa_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('comfortaa_regular-webfont.woff') format('woff'),
+         url('comfortaa_regular-webfont.ttf') format('truetype'),
+         url('comfortaa_regular-webfont.svg#comfortaaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background-color: #082e34;
+	margin:0;
+	font-family: 'Comfortaa', Helvetica, Sans-Serif;
+	color: white;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: normal;
+}
+
+h2{
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+h3{
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+
+#about{
+	background-color: #7eb5bc;
+}
+
+#about a:link{
+	color:#d1d2d4;
+	text-decoration: none;
+}
+
+#about a:visited {
+	color:#d1d2d4;
+} 
+
+#about a:hover{
+	color:#d1d2d4;
+	text-decoration: underline;
+}
+
+#findonline{
+	background-color:#53909a;
+}
+
+#currentprojects{
+	background-color: #224f56;
+}
+
+#currentprojects a:link{
+	color:#7eb5bc;
+	text-decoration: none;
+}
+
+#currentprojects a:visited {
+	color:#7eb5bc;
+} 
+
+#currentprojects a:hover{
+	color:#7eb5bc;
+	text-decoration: underline;
+}
+
+#pastprojects{
+	background-color: #082e34;
+}
+
+#pastprojects a:link{
+	color:#7eb5bc;
+	text-decoration: none;
+}
+
+#pastprojects a:visited {
+	color:#7eb5bc;
+} 
+
+#pastprojects a:hover{
+	color:#7eb5bc;
+	text-decoration: underline;
+}
+
+
+.icondescription{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.contentstripe{
+	margin: 0px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	overflow: auto;
+}
+
+@media (max-width: 750px){
+	.contentstripe{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.title{
+		width: 100%;
+	}
+	.righttext{
+		overflow: auto;
+		float:left;
+	}
+	.about{
+		padding-top: 2em;
+	}
+}
+
+@media (min-width: 751px){
+	.contentstripe{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.title{
+	width: 24%;
+	float:left;
+	overflow: auto;
+	}
+	
+}
+
+@media (min-width: 1301px) {
+	.contentstripe{
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+	.title{
+	width: 24%;
+	float:left;
+	overflow: auto;
+	}
+ }
+
+.quartergrid{
+	width: 22%;
+	float: left;
+}
+.quartergrid img{
+	width: 80%;
+}
+
+@media (min-width: 751px){
+	.righttext{
+	overflow: auto;
+	float:left;
+	margin-left: 1em;
+	}
+}
+
+
+
+
+
